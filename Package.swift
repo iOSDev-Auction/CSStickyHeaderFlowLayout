@@ -3,9 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "CSStickyHeaderFlowLayout",
-    platforms: [
-        .iOS(.v11)
-    ],
+    platforms: [.iOS(.v11)],
     products: [
         .library(
             name: "CSStickyHeaderFlowLayout",
@@ -15,7 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "CSStickyHeaderFlowLayout",
-            path: "CSStickyHeaderFlowLayout",
+            path: "CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout",
             publicHeadersPath: "."
         )
     ]
